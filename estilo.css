@@ -1,0 +1,169 @@
+*
+
+{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial Narrow';
+}
+.navegacion{
+    text-align: center;
+}
+.formulario{
+    width: 400px;
+    padding: 30px;
+    background: #FFE45B;
+}
+
+.control{
+    width: 100%;
+    background-color: azure;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid black;
+}
+
+.formulario .boton{
+    width: 100%;
+    background: floralwhite;
+    padding: 12px;
+    font-size: 16px;
+}
+
+.formulario1{
+    justify-content: center;
+    align-content: center;
+    width: 400px;
+    padding: 30px;
+    background: #FF5B5B;
+}
+
+.control1{
+    width: 100%;
+    background-color:  azure;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid black;
+}
+
+.formulario1 .boton1{
+    width: 100%;
+    background: floralwhite;
+    padding: 12px;
+    font-size: 16px;
+}
+
+.formulario1 .boton10{
+    width: 100%;
+    background: beige;
+    padding: 12px;
+}
+
+.formularioInvitados{
+    justify-content: center;
+    align-content: center;
+    width: 400px;
+    padding: 30px;
+    background: #FF5B5B;
+}
+
+.formularioInvitados .botonInvitado{
+    width: 100%;
+    background: floralwhite;
+    padding: 12px;
+    font-size: 16px;
+}
+.formulario2{
+    width: 400px;
+    padding: 30px;
+    background: #5BA6FF;
+}
+
+.control2{
+    width: 100%;
+    background-color:  azure;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid black;
+}
+
+.formulario2 .boton2{
+    width: 100%;
+    background: floralwhite;
+    padding: 12px;
+    font-size: 16px;
+}
+
+.fijar{
+    margin-top: -135px;
+}
+
+.formulario3{
+    justify-content: center;
+    align-content: center;
+    width: 400px;
+    padding: 30px;
+    background: #FF5B5B;
+}
+
+.control3{
+    width: 100%;
+    background-color:  azure;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid black;
+}
+
+.formulario3 .botonCancelarE{
+    width: 100%;
+    background: floralwhite;
+    padding: 12px;
+    font-size: 16px;
+}
+
+.formulario4{
+    justify-content: center;
+    align-content: center;
+    width: 400px;
+    padding: 30px;
+    background:  #FFE45B;
+}
+
+.formulario4 .botonConsultarE{
+    width: 100%;
+    background: floralwhite;
+    padding: 12px;
+    font-size: 16px;
+}
+
+.formulario5{
+    width: 400px;
+    padding: 30px;
+    background: #5BA6FF;
+}
+
+.formulario5 .botonConsultarM{
+    width: 100%;
+    background: floralwhite;
+    padding: 12px;
+    font-size: 16px;
+}
+
+.formulario6{
+    justify-content: center;
+    align-content: center;
+    width: 400px;
+    padding: 30px;
+    background: #FF5B5B;
+}
+
+.formulario6 .botonConsultarD{
+    width: 100%;
+    background: floralwhite;
+    padding: 12px;
+    font-size: 16px;
+}
