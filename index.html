@@ -9,25 +9,7 @@
 
    
         <body>
-            <body background="imagenes/fondo.jpeg"> 
-                <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
-                 <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>
-
-                 <script>
-                    var firebaseConfig = {
-                      apiKey: "AIzaSyB_cOSI6lHxLG72Hkpv8XQj2ja9BRTlIjs",
-                      authDomain: "mascotas-38933.firebaseapp.com",
-                      projectId: "mascotas-38933",
-                      storageBucket: "mascotas-38933.appspot.com",
-                      messagingSenderId: "461875708466",
-                      appId: "1:461875708466:web:934de6e2091b3c2eda322b",
-                      measurementId: "G-HW1B838XE6"
-                    };
-
-                    firebase.initializeApp(firebaseConfig);
-                    firebase.analytics();
-                  </script>
-            
+            <body background="imagenes/fondo.jpeg"> </body>
             <header>
                 <h1>  <center> red social mascotas unidas</center>  </h4>
                     <h1>  <center> formulario</center>  </h4>
@@ -64,7 +46,7 @@
             
                 <article> 
                     <center>
-                    <form>
+                    <form id="formularioDueños">
                     <section class="formulario1"> 
                     <a name = "registroD" >  <h4> informacion dueños</h4>  </a> <br>
                     <div> <img src = "imagenes/duenos.png"  width = "250" height = "150" /> </div> <br>
@@ -81,6 +63,7 @@
                      <br>
                      <br>
                      <br>
+                     <div id="student-list" class="col-md-8"></div>            
 
                     </center>
                     </form>
@@ -104,46 +87,39 @@
 
 
 
-            
-
-                
+        
             </section>
     
             <br>
             <br>
 
-            <footer>
-                    CREADOR  :    jhonny cataño rodriguez
-
-
+            
+                    
                     <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
-
-        <!-- TODO: Add SDKs for Firebase products that you want to use
-            https://firebase.google.com/docs/web/setup#available-libraries -->
-        <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-analytics.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-firestore.js"></script>
 
         <script>
         // Your web app's Firebase configuration
         // For Firebase JS SDK v7.20.0 and later, measurementId is optional
         var firebaseConfig = {
-        apiKey: "AIzaSyB_cOSI6lHxLG72Hkpv8XQj2ja9BRTlIjs",
-        authDomain: "mascotas-38933.firebaseapp.com",
-        projectId: "mascotas-38933",
-        storageBucket: "mascotas-38933.appspot.com",
-        messagingSenderId: "461875708466",
-        appId: "1:461875708466:web:934de6e2091b3c2eda322b",
-        measurementId: "G-HW1B838XE6"
+            apiKey: "AIzaSyB_cOSI6lHxLG72Hkpv8XQj2ja9BRTlIjs",
+            authDomain: "mascotas-38933.firebaseapp.com",
+            projectId: "mascotas-38933",
+            storageBucket: "mascotas-38933.appspot.com",
+            messagingSenderId: "461875708466",
+            appId: "1:461875708466:web:934de6e2091b3c2eda322b",
+            measurementId: "G-HW1B838XE6"
         };
-        // Initialize Firebase  
+        // Initialize Firebase
         firebase.initializeApp(firebaseConfig);
-        firebase.analytics();
-        </script>
-
+s        </script>
     
             <script type ="text/javascript" src = "index.js"> </script>
+            <footer>
+                CREADOR  :    jhonny cataño rodriguez    
+        </footer>
         </body>
-
     
 </html>
  
